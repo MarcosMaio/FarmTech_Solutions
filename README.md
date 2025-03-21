@@ -97,12 +97,22 @@ The Python application provides an **interactive menu-driven interface** for man
 ```bash
 Rscript analysis.R
 ```
-#### 🔧 Funcionalidade:
-- Analisa automaticamente todos os arquivos `.csv` localizados no diretório `cultures/`.
-- Para cada arquivo, realiza os seguintes cálculos:
-  - 📉 **Média (Mean)**
-  - 📈 **Desvio padrão (Standard Deviation)**
-- Exibe no terminal um resumo estatístico de cada coluna numérica.
+### 📈 R Analysis Script
+
+#### 🔧 Functionality:
+- Automatically scans all `.csv` files located in the `cultures/` directory.
+- For each file, performs the following calculations:
+  - 📉 **Mean**
+  - 📈 **Standard Deviation**
+- Displays a summary of statistics for each numeric column directly in the terminal.
+
+---
+
+### 🌦 R Climate Metrics Script
+
+```bash
+Rscript climate-metrics.R
+
 
 ---
 
@@ -111,14 +121,14 @@ Rscript analysis.R
 ```bash
 Rscript climate-metrics.R
 ```
-#### 🌍 Funcionalidade:
+#### 🌍 Functionality:
 
-- Conecta-se a uma **API pública de clima** (ex: [Open-Meteo](https://open-meteo.com)).
-- Recupera e exibe **dados climáticos em tempo real**, incluindo:
-  - 🌡 **Temperatura**
-  - 💨 **Velocidade e direção do vento**
-  - 💧 **Umidade**
-- Todos os dados são exibidos diretamente no **terminal** para retorno imediato.
+- Connects to a **public weather API** (e.g. [Open-Meteo](https://open-meteo.com)).
+- Retrieves and displays **real-time weather data**, including:
+- 🌡 **Temperature**
+- 💨 **Wind speed and direction**
+- 💧 **Humidity**
+- All data is displayed directly in the **terminal** for immediate feedback.
 
 ## 📄 License
 
