@@ -1,8 +1,8 @@
 library(httr)
 library(jsonlite)
 
-latitude <- -23.5505
-longitude <- -46.6333
+latitude <- -22.9068
+longitude <- -43.1729
 
 url <- paste0("https://api.open-meteo.com/v1/forecast?latitude=", latitude,
               "&longitude=", longitude, "&current_weather=true")
